@@ -1,5 +1,7 @@
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import MainBoard from './components/Main';
+
+const App = () => {
+  return <MainBoard />;
+};
 
 export default App;
