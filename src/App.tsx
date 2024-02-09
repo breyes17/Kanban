@@ -1,7 +1,7 @@
-import MainBoard from './components/Main';
+import BoardContainer from "./components/board-container";
 
 const App = () => {
-  return <MainBoard />;
+  return <BoardContainer />;
 };
 
 export default App;
