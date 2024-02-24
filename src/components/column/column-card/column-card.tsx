@@ -1,10 +1,6 @@
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 import ColumnCardOwner from "./column-card-owner";
+import ColumnCardFooter from "./column-card-footer";
 
 const ColumnCard = () => {
   const sample = [
@@ -19,12 +15,10 @@ const ColumnCard = () => {
   const random = Math.floor(Math.random() * sample.length);
   const title = sample[random];
   return (
-    <Card>
+    <Card className="bg-[var(--gray)] border-0 flex flex-col gap-3">
       <CardHeader>{title}</CardHeader>
-      <CardContent>Content</CardContent>
-      <CardFooter>
-        <p>Card Footer</p>
-      </CardFooter>
+      <ColumnCardOwner />
+      <ColumnCardFooter />
     </Card>
   );
 };
