@@ -4,7 +4,7 @@ import ColumnHeader from "./column-header";
 
 const Column = () => {
   return (
-    <div className="w-72 min-h-fit h-auto border-2 rounded-md p-2 flex flex-col gap-2 bg-[var(--background)]">
+    <div className="columnDefault">
       <ColumnHeader />
       <ColumnContentContainer />
       <ColumnFooter />
