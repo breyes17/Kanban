@@ -1,0 +1,62 @@
+{
+    "kanban": [
+        {
+            "id": 1,
+            "name": "Testing kanban",
+            "boards": [
+                {
+                    "boardId": "sakljdf901234",
+                    "header": "Column 1",
+                    "cards": [
+                        {
+                            "cardId": "lgkjaslkdfj23423o93",
+                            "cardName": "Card Name",
+                            "assignedTo": 3,
+                            "comments": [
+                                {
+                                    "commentId": "alsjfalskdjf51234",
+                                    "message": "Hello world",
+                                    "commentDate": "02-25-2024"
+                                }
+                            ]
+                        },
+                        {
+                            "cardId": "2341235sdfas",
+                            "cardName": "Card Name 2",
+                            "assignedTo": null,
+                            "comments": [
+                                {
+                                    "commentId": "alsjfalskdjf51234",
+                                    "message": "Hello world",
+                                    "commentDate": "02-25-2024"
+                                },
+                                {
+                                    "commentId": "23423sfhbds",
+                                    "message": "commented",
+                                    "commentDate": "02-25-2024"
+                                },
+                                {
+                                    "commentId": "23423456579xc",
+                                    "message": "Gutom",
+                                    "commentDate": "02-25-2024"
+                                }
+                            ]
+                        },
+                        {
+                            "cardId": "lgkjasl512341234kdfj23423o93",
+                            "cardName": "Card Name 3",
+                            "assignedTo": 2,
+                            "comments": []
+                        }
+                    ]
+
+                },
+                {
+                    "boardId": "3425sdfgdsf457",
+                    "header": "Column 2",
+                    "cards": []
+                }
+            ]
+        }
+    ]
+}
