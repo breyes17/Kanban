@@ -16,7 +16,7 @@ const ColumnCard = () => {
   const title = sample[random];
   return (
     <Card className="bg-[var(--gray)] border-0 flex flex-col gap-3">
-      <CardHeader>{title}</CardHeader>
+      <CardHeader className="font-semibold">{title}</CardHeader>
       <ColumnCardOwner />
       <ColumnCardFooter />
     </Card>

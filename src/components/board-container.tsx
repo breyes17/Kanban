@@ -5,7 +5,7 @@ const BoardContainer = () => {
   return (
     <>
       <Nav />
-      <main className="w-full px-6 bg-inherit">
+      <main className="w-full bg-inherit">
         <Board />
       </main>
     </>
