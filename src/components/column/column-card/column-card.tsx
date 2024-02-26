@@ -1,24 +1,19 @@
 import { Card, CardHeader } from "@/components/ui/card";
-import ColumnCardOwner from "./column-card-owner";
+// import ColumnCardOwner from "./column-card-owner"; // TODO: Not sure if this should be included
 import ColumnCardFooter from "./column-card-footer";
+import { ICard } from "@/interface";
 
-const ColumnCard = () => {
-  const sample = [
-    "Title",
-    "Hello World",
-    "Lets do this shit",
-    "FInish this project",
-    "You can do it",
-    "Watashi no namae wa borayan desu",
-    "Watashi no namae wa borayan desu. Hello world",
-  ];
-  const random = Math.floor(Math.random() * sample.length);
-  const title = sample[random];
+const ColumnCard: React.FC<ICard> = ({
+  // assignedTo,
+  // cardId,
+  cardName,
+  comments,
+}) => {
   return (
     <Card className="bg-[var(--gray)] border-0 flex flex-col gap-3">
-      <CardHeader className="font-semibold">{title}</CardHeader>
-      <ColumnCardOwner />
-      <ColumnCardFooter />
+      <CardHeader className="font-semibold">{cardName}</CardHeader>
+      {/* <ColumnCardOwner /> */}
+      <ColumnCardFooter comments={comments} />
     </Card>
   );
 };

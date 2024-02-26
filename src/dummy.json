@@ -1,7 +1,7 @@
 {
     "kanban": [
         {
-            "id": 1,
+            "id": "lkjelasd534",
             "name": "Testing kanban",
             "boards": [
                 {
@@ -11,7 +11,7 @@
                         {
                             "cardId": "lgkjaslkdfj23423o93",
                             "cardName": "Card Name",
-                            "assignedTo": 3,
+                            "assignedTo": "lhjaslkdfjlaskh61o2349",
                             "comments": [
                                 {
                                     "commentId": "alsjfalskdjf51234",
@@ -45,7 +45,7 @@
                         {
                             "cardId": "lgkjasl512341234kdfj23423o93",
                             "cardName": "Card Name 3",
-                            "assignedTo": 2,
+                            "assignedTo": "234236alsdkgalkj",
                             "comments": []
                         }
                     ]
