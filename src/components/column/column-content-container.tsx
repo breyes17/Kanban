@@ -1,14 +1,20 @@
 import { ColumnCard } from "./column-card";
+import { ICard } from "@/interface";
 
-function ColumnContentContainer() {
-  const arr = Array.from(Array(5).keys());
+interface IColumnContentContainer {
+  cards: ICard[];
+}
+
+const ColumnContentContainer: React.FC<IColumnContentContainer> = ({
+  cards,
+}) => {
   return (
     <div className="flex flex-col gap-2">
-      {arr.map((_, i) => (
-        <ColumnCard key={i} />
+      {cards.map((card) => (
+        <ColumnCard {...card} key={card.cardId} />
       ))}
     </div>
   );
-}
+};
 
 export default ColumnContentContainer;
